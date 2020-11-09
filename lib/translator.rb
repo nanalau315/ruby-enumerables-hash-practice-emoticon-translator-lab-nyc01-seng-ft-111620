@@ -7,6 +7,7 @@ require 'pry'
 def load_library(path)
   jap_emote = []
   jap_emote << path
+  bingding.pry
   jap_emote.each do
   
   
