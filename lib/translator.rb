@@ -30,3 +30,20 @@ def get_japanese_emoticon(path, emote)
   load_library(path)
 
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
