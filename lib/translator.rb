@@ -9,7 +9,7 @@ def load_library(path)
   jap_emote << path
   
   
-end
+
   
 end
 
