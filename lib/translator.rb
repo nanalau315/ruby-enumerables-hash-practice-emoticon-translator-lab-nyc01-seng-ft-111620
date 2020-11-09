@@ -15,15 +15,15 @@ end
 
 
 
-def get_japanese_emoticon(path, emote)
-  path = YAML.load_file('./lib/emoticons.yml')
-
-end
-
 
 
 
 def get_english_meaning(path, emote)
   load_library(path)
   
+end
+
+def get_japanese_emoticon(path, emote)
+  path = YAML.load_file('./lib/emoticons.yml')
+
 end
