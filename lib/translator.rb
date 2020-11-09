@@ -21,8 +21,6 @@ def get_english_meaning(path, emote)
   emote_hash.each do |emote_name, e|
     if e[:japanese] == emote
     return emote_name
-    
-    else
     sorry_message
     
   end
