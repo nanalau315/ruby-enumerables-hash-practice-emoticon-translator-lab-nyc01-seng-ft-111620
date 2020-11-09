@@ -5,8 +5,7 @@ path = YAML.load_file('./lib/emoticons.yml')
 require 'pry'
 
 def load_library(path)
-  jap_emote = []
-  jap_emote << path
+  
   
   
 
