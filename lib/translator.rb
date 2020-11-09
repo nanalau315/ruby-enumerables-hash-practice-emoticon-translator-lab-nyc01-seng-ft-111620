@@ -20,7 +20,7 @@ def get_english_meaning(path, emote)
   emote_hash = load_library(path)
   emote_hash.each do |emote_name, e|
     if e[:japanese] == emote
-    emote_name
+    return emote_name
     
     else
     sorry_message
