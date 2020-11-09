@@ -38,19 +38,3 @@ def get_japanese_emoticon(path, emote)
   sorry_message
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
