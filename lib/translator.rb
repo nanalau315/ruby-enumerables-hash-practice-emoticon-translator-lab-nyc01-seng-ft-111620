@@ -8,7 +8,8 @@ def load_library(path)
   path = YAML.load_file('./lib/emoticons.yml')
   path.each do |name, emote|
     path[name] = {}
-    path[name][:english]
+    path[name][:english] = emote[0]
+    path[name][:japanese] = emote[1]
     
   
 
