@@ -20,6 +20,7 @@ def get_english_meaning(path, emote)
     if e[:japanese] == emote
     p e
   end
+  end
   
 end
 
