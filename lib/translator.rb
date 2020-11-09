@@ -24,5 +24,5 @@ end
 
 
 def get_english_meaning(path, emote)
-
+  load_library(path)
 end
