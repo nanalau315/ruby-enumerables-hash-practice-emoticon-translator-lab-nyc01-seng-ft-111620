@@ -10,10 +10,7 @@ def load_library(path)
     path[name] = {}
     path[name][:english] = emote[0]
     path[name][:japanese] = emote[1]
-    
-  
-
-  
+  end
 end
 
 
