@@ -10,7 +10,7 @@ def load_library(path)
   binding.pry
   jap_emote.each do
   
-  
+end
   
 end
 
