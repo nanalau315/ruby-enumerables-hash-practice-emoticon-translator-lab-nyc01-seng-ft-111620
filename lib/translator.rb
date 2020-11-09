@@ -5,6 +5,9 @@ jap_emote = YAML.load_file('./lib/emoticons.yml')
 # require "./lib/emoticons.yml"
 # jap_emote = ./lib/emoticons.yml
 
+jap_emote
+
+
 def load_library(file_path)
   
   
