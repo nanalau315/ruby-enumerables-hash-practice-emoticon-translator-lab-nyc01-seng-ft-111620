@@ -1,6 +1,6 @@
 # require modules here
 require "yaml"
-path = YAML.load_file('./lib/emoticons.yml')
+YAML.load_file('./lib/emoticons.yml')
 
 require 'pry'
 
