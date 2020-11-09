@@ -7,7 +7,7 @@ require 'pry'
 def load_library(path)
   path = YAML.load_file('./lib/emoticons.yml')
   path.each do |name, emote|
-    emote.each do |
+    name
   
 
   
