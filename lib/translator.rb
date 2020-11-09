@@ -21,15 +21,13 @@ def get_english_meaning(path, emote)
   emote_hash.each do |emote_name, e|
     if e[:japanese] == emote
     return emote_name
-    
-    
-  end
+    end
   end
   sorry_message
 end
 
 def get_japanese_emoticon(path, emote)
   path = YAML.load_file('./lib/emoticons.yml')
-  emote_hash = load_library(path)
+  load_library(path)
 
 end
