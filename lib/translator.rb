@@ -15,13 +15,15 @@ end
 
 
 def get_english_meaning(path, emote)
+  sorry_message = "Sorry, that emoticon was not found"
+  
   emote_hash = load_library(path)
   emote_hash.each do |emote_name, e|
     if e[:japanese] == emote
     return emote_name
     
     else
-    "Sorry, that emoticon was not found"
+    sorry_message
     
   end
   end
