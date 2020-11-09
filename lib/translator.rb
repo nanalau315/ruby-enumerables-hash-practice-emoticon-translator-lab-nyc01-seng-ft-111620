@@ -16,6 +16,7 @@ end
 
 
 def get_japanese_emoticon(path, emote)
+  path = YAML.load_file('./lib/emoticons.yml')
 
 end
 
