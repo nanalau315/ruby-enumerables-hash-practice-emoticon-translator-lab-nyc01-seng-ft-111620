@@ -1,8 +1,4 @@
-# require modules here
 require "yaml"
-YAML.load_file('./lib/emoticons.yml')
-
-require 'pry'
 
 def load_library(path)
   path = YAML.load_file('./lib/emoticons.yml')
@@ -12,7 +8,6 @@ def load_library(path)
     path[name][:japanese] = emote[1]
   end
 end
-
 
 def get_english_meaning(path, emote)
   sorry_message = "Sorry, that emoticon was not found"
@@ -37,4 +32,3 @@ def get_japanese_emoticon(path, emote)
   end
   sorry_message
 end
-
