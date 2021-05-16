@@ -7,6 +7,7 @@ def load_library(path)
     path[name][:english] = emote[0]
     path[name][:japanese] = emote[1]
   end
+  path
 end
 
 def get_english_meaning(path, emote)
